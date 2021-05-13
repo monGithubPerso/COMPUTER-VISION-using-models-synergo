@@ -49,5 +49,11 @@ Used:
     - face recognition https://www.youtube.com/watch?v=54WmrwVWu1w
     - head movement https://www.youtube.com/watch?v=ibuEFfpVWlU&t=661s
 
+tuto used:
+     - https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ
+     - https://www.pyimagesearch.com/
+     - https://www.youtube.com/channel/UCYUjYU5FveRAscQ8V21w81A
+     - https://www.youtube.com/channel/UC5hHNks012Ca2o_MPLRUuJw
+     - https://www.youtube.com/channel/UCwlhFburhQNOsfgeGOyRujg
 
 
