@@ -23,3 +23,11 @@ Requirements:
     - pip install face-recognition==1.2.3
  
 Downloaw:
+  
+    - https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks.dat.bz2
+
+    - And put it in emotional_marquors\data\models\dlib_model
+
+    - https://github.com/eveningglow/age-and-gender-classification/blob/master/model/gender_net.caffemodel
+
+    - And put it in emotional_marquors\data\models\genre
