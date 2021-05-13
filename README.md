@@ -48,12 +48,13 @@ Used:
     - skin color : http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.718.1964&rep=rep1&type=pdf
     - face recognition https://www.youtube.com/watch?v=54WmrwVWu1w
     - head movement https://www.youtube.com/watch?v=ibuEFfpVWlU&t=661s
+    
+    TUTO used:
 
-tuto used:
-     - https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ
-     - https://www.pyimagesearch.com/
-     - https://www.youtube.com/channel/UCYUjYU5FveRAscQ8V21w81A
-     - https://www.youtube.com/channel/UC5hHNks012Ca2o_MPLRUuJw
-     - https://www.youtube.com/channel/UCwlhFburhQNOsfgeGOyRujg
+    - https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ
+    - https://www.pyimagesearch.com/
+    - https://www.youtube.com/channel/UCYUjYU5FveRAscQ8V21w81A
+    - https://www.youtube.com/channel/UC5hHNks012Ca2o_MPLRUuJw
+    - https://www.youtube.com/channel/UCwlhFburhQNOsfgeGOyRujg
 
 
