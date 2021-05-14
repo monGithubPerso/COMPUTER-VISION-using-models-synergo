@@ -90,8 +90,6 @@ class Eyes_analyse(Utils):
         # Recuperate the first element: [0.1 0.13 0.17] & [0.9] -> [0.1, 0.9]
         closing_historic = [begin for (begin, end) in closing_historic]
 
-        print("closing_historic", closing_historic)
-
         if self.not_empty(closing_historic):
 
             # Recuperate blink duration < 60 % mean.
