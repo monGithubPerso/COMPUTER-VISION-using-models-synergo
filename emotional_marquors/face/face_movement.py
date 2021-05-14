@@ -117,7 +117,6 @@ class Face_movements(Utils):
         face_part = "left" if distFace(right_eye_nose, left_eye_nose) else None
         face_part = "right" if distFace(left_eye_nose, right_eye_nose) else face_part
 
-        print("face part", face_part)
         self.class_object_data_face["face_showing"] = face_part
 
 
@@ -142,8 +141,6 @@ class Face_movements(Utils):
         side_rightY = self.scaling_distance_round(right_chin[0], right_chin[1], ratio)
         side_leftY = self.scaling_distance_round(left_chin[0], left_chin[1], ratio)
 
-        print(side_rightY, side_leftY)
-
         # Recuperate the maximum & the minimum distance & compare them
         # if one of them is at a certain percent of the other
         # head's leaning.
@@ -151,12 +148,9 @@ class Face_movements(Utils):
 
         threhsold_max, threhsold_min = self.threshold_face_leaning
 
-        print(self.percent_of(max_value, threhsold_min), self.percent_of(max_value, threhsold_max), min_value)
-
         if self.percent_of_not_round(max_value, threhsold_min) < min_value and min_value < self.percent_of_not_round(max_value, threhsold_max):
 
             leaning_x = "left" if side_rightY < side_leftY else "right"
-            print("leaning", leaning_x)
 
             self.class_object_data_face["leaning_head"] += [(leaning_x, self.timer)]
 
@@ -177,8 +171,6 @@ class Face_movements(Utils):
 
         cosb = min((math.pow(d2, 2) - math.pow(d1, 2) + math.pow(d_eyes, 2)) / (2*d2*d_eyes), 1)
         lean = int(250*(d2*math.sin(math.acos(cosb))-coeff/4)/coeff)
-
-        print("degres vertical bot top", lean)
 
         position = "Top" if lean < self.treshold_bottom_top[0] else "Center"
         position = "bot" if lean > self.treshold_bottom_top[1] else position
@@ -411,8 +403,7 @@ class Face_movements(Utils):
         points and compare the distance with a threshold."""
 
         has_move = True
-        print(epaul1, epaul2)
-   
+
         if epaul1 is not None and len(epaul1) > 0:
             move = self.scaling_distance_not_round(epaul1[:2], epaul2[:2], ratio)
             has_move = False if move < self.treshold_shoulder_move else True
@@ -526,7 +517,6 @@ class Face_movements(Utils):
 
                     for sign_name, representation in self.dico_sign.items():
                         if only_sign_significant.find(representation) >= 0:
-                            print(sign_name)
                             self.class_object_data_face["face_moving"] = []
 
 
@@ -535,7 +525,6 @@ class Face_movements(Utils):
 
                     for sign_name, representation in self.dico_sign.items():
                         if only_sign_significant.find(representation) >= 0:
-                            print(sign_name)
                             self.class_object_data_face["face_moving"] = []
 
             self.remove_data()
