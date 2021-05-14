@@ -16,7 +16,8 @@ How it functions:
 
 Requirements:
   
-    - pip install requirements.txt
+   1) conda install python=3.7.6
+   2) pip install opencv-python
  
 Downloaw:
   
