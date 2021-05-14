@@ -23,7 +23,11 @@ Requirements:
    3) pip install imutils
    4) pip install scipy
    5) pip install mediapipe
-   6) 
+   6) conda install -c conda-forge dlib
+   7) conda install tensorflow
+   8) pip install keras
+   9) pip install face_recognition
+
  
 Downloaw:
   
