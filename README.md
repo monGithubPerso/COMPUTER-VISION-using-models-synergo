@@ -7,6 +7,8 @@ Try to detect emotion marquors via body movements. Project in progress.
 
 How it functions:
 
+    In main verify path.
+
     lunch main.py --video {path_of_video}
 
     (video rules format's in main.py)
