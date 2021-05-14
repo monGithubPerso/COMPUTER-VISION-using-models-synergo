@@ -301,8 +301,6 @@ class Eye_sign(Utils):
 		ear_ratio = self.get_blink_ratio_1(eyes_landmarks)
 		blink_ratio = np.mean([self.get_blink_ratio_2(eyes) for eyes in eyes_landmarks])
 
-		print("ratio blink", ear_ratio, blink_ratio)
-
 		# Ratio and thresholds limits.
 		eyes_close, need_verification = self.ear_detection(ear_ratio, blink_ratio)
 
