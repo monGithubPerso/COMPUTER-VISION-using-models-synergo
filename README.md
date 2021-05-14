@@ -19,6 +19,10 @@ Requirements:
    0) conda create --name test
    1) conda install python=3.7.6
    2) pip install opencv-python
+   3) pip install imutils
+   4) pip install scipy
+   5) pip install mediapipe
+   6) 
  
 Downloaw:
   
