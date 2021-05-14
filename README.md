@@ -15,7 +15,8 @@ How it functions:
 
 
 Requirements:
-  
+
+   0) conda create --name test
    1) conda install python=3.7.6
    2) pip install opencv-python
  
