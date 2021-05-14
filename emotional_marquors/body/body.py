@@ -26,7 +26,6 @@ class Body_distance(Utils):
         self.pose = mp.solutions.pose.Pose(
             min_detection_confidence = 0.5,
             min_tracking_confidence = 0.5,
-            upper_body_only = True,
             static_image_mode=False,
         )
 
