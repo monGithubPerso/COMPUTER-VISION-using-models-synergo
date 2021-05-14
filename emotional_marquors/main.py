@@ -22,7 +22,7 @@ The program's not complete.
 
 
 
-# detection feature -> creation or recuperation on database -> treatment on feature -> analyse -> display -> event mouse.
+# detection feature -> creation or recuperation on database -> tracking features -> treatment on feature -> analyse -> display -> event mouse.
 
 
 """
