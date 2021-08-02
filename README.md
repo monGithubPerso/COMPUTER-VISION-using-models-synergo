@@ -1,6 +1,6 @@
 # emotional-marquors human detection
 
-Try to detect emotion marquors via body movements. Project in progress.
+Try to detect all features of the body in movements.
 
 ![a](https://user-images.githubusercontent.com/54853371/117892402-f2132680-b2b8-11eb-8d19-291852c411aa.png)
 
